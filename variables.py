@@ -4,7 +4,6 @@ conn = sqlite3.connect(
     "Database.db",
     check_same_thread=False
 )
-
 c = conn.cursor()
 
 # -----------------------------
